@@ -1,0 +1,46 @@
+﻿生成启动时间为 2015/9/20 10:14:19。
+     1>项目“D:\code\render0\render0\render0.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\render0.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Device.cpp render0.cpp
+         Device.cpp
+     1>d:\code\render0\render0\device.cpp(208): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\code\render0\render0\device.cpp(236): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\code\render0\render0\device.cpp(237): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\code\render0\render0\device.cpp(238): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\code\render0\render0\device.cpp(239): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\code\render0\render0\vector.h(90): warning C4244: “参数”: 从“double”转换到“const Byte”，可能丢失数据
+                 d:\code\render0\render0\vector.h(89): 编译类 模板 成员函数“Vector<T> Vector<T>::interp(const Vector<T> &,const double) const”时
+                 with
+                 [
+                     T=Byte
+                 ]
+                 d:\code\render0\render0\device.cpp(103): 参见对正在编译的函数 模板 实例化“Vector<T> Vector<T>::interp(const Vector<T> &,const double) const”的引用
+                 with
+                 [
+                     T=Byte
+                 ]
+                 d:\code\render0\render0\vertex.h(16): 参见对正在编译的类 模板 实例化“Vector<T>”的引用
+                 with
+                 [
+                     T=Byte
+                 ]
+     1>d:\code\render0\render0\vector.h(90): warning C4244: “参数”: 从“const double”转换到“const Byte”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         render0.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\render0\Debug\render0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\render0\Debug\render0.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\render0\Debug\render0.lib" /MACHINE:X86 Debug\render0.res
+         Debug\Device.obj
+         Debug\Matrix.obj
+         Debug\Render.obj
+         Debug\render0.obj
+         Debug\stdafx.obj
+         Debug\Transform.obj
+         Debug\Vertex.obj
+         render0.vcxproj -> D:\code\render0\Debug\render0.exe
+     1>已完成生成项目“D:\code\render0\render0\render0.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.51
